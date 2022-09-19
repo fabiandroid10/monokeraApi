@@ -1,0 +1,13 @@
+{
+    "transaction_id": "312312312312",
+    "customer_info": {
+        "customer_name": "User 1",
+        "customer_account": "23131342342342321",
+        "debit_ammount": 20000
+    },
+    "seller_info": {
+        "seller_name": "User 2",
+        "seller_account": "23132131",
+        "credit_ammount": 20000
+    }
+}

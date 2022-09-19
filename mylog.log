@@ -1,0 +1,14 @@
+2022/09/19 15:22:50.962808 transactionService.go:32: log file created
+2022/09/19 15:22:50.979497 transactionService.go:34: -------Inicio transaccion-------
+2022/09/19 15:22:50.979994 transactionService.go:35: Request transaccion: 
+2022/09/19 15:22:50.979994 transactionService.go:37: transaction id: 312312312312 Customer name: User 1 Customer account: 23131342342342321 Seller name: User 2 Seller account: 23132131 Transaction ammount 20000
+2022/09/19 15:22:50.979994 transactionService.go:54: Response transaccion: 
+2022/09/19 15:22:50.979994 transactionService.go:55: Transaction id 312312312312 Customer name: User 1 Customer account: 23131342342342321 Debit Ammount: 20000 Seller Name: User 2 Seller Account: 23132131 Credit Ammount: 20000
+2022/09/19 15:22:50.981987 transactionService.go:63: -------Fin Transaccion-------
+2022/09/19 15:22:55.591607 transactionService.go:32: log file created
+2022/09/19 15:22:55.591607 transactionService.go:34: -------Inicio transaccion-------
+2022/09/19 15:22:55.591607 transactionService.go:35: Request transaccion: 
+2022/09/19 15:22:55.591607 transactionService.go:37: transaction id: 312312312312 Customer name: User 1 Customer account: 23131342342342321 Seller name: User 2 Seller account: 23132131 Transaction ammount 20000
+2022/09/19 15:22:55.591607 transactionService.go:54: Response transaccion: 
+2022/09/19 15:22:55.591607 transactionService.go:55: Transaction id 312312312312 Customer name: User 1 Customer account: 23131342342342321 Debit Ammount: 20000 Seller Name: User 2 Seller Account: 23132131 Credit Ammount: 20000
+2022/09/19 15:22:55.591607 transactionService.go:63: -------Fin Transaccion-------
