@@ -29,7 +29,6 @@
 * Monitoreo - Amazon CloudWatch
 
 ### Diagrama Opcion 1
-<<<<<<< HEAD
 ![architecture](https://github.com/fabiandroid10/monokeraApi/blob/master/Op1.jpeg)
 
 ### Diagrama Arquitectura Elegida
@@ -37,15 +36,6 @@
 
 ### Diagrama AWS
 ![architecture](https://github.com/fabiandroid10/monokeraApi/blob/master/DiagramAWS.jpeg)
-=======
-![architecture](https://github.com/fabiandroid10/sre/blob/master/Op1.jpeg)
-
-### Diagrama Arquitectura Elegida
-![architecture](https://github.com/fabiandroid10/sre/blob/master/DiagramArch.jpeg)
-
-### Diagrama AWS
-![architecture](https://github.com/fabiandroid10/sre/blob/master/DiagramAWS.jpeg)
->>>>>>> parent of 84ada0b (fix 2)
 
 
 ## Consumo del servicio
@@ -88,7 +78,6 @@ http://goapp-env-2.eba-i3zddipn.us-east-1.elasticbeanstalk.com/purchase
 #### Logs generados a partir del consumo:
 
 ```
-<<<<<<< HEAD
 2022/09/19 15:22:55.591607 transactionService.go:34: -------Inicio transaccion-------
 2022/09/19 15:22:55.591607 transactionService.go:35: Request transaccion: 
 2022/09/19 15:22:55.591607 transactionService.go:37: transaction id: 312312312312 Customer name: User 1 Customer account: 23131342342342321 Seller name: User 2 Seller account: 23132131 Transaction ammount 20000
@@ -96,24 +85,17 @@ http://goapp-env-2.eba-i3zddipn.us-east-1.elasticbeanstalk.com/purchase
 2022/09/19 15:22:55.591607 transactionService.go:55: Transaction id 312312312312 Customer name: User 1 Customer account: 23131342342342321 Debit Ammount: 20000 Seller Name: User 2 Seller Account: 23132131 Credit Ammount: 20000
 2022/09/19 15:22:55.591607 transactionService.go:63: -------Fin Transaccion-------
 ```
+
+#### Aplicar CI/CD con CodePipeline o con Jenkins:
+
+* Diagrama - aplicacion de CI/CD (Pipeline), tambien se define servicios para escalar horizontalmente los servidores de aplicaciones, aumentar el rendimiento, disminuir la latencia, conseguir tolerancia a fallos y aumentar la disponibilidad.
+----
+![architecture](https://github.com/fabiandroid10/monokeraApi/blob/master/Flujoci-cd.png)
+
 #### Monitoreo desde CloudWatch:
 
 ![cloudwatch](https://github.com/fabiandroid10/monokeraApi/blob/master/CloudWatch.png)
 ----
 ![cloudwatch](https://github.com/fabiandroid10/monokeraApi/blob/master/CloudWatch2.png)
-=======
-2022/04/17 15:22:55.591607 transactionService.go:34: -------Inicio transaccion-------
-2022/04/17 15:22:55.591607 transactionService.go:35: Request transaccion: 
-2022/04/17 15:22:55.591607 transactionService.go:37: transaction id: 312312312312 Customer name: User 1 Customer account: 23131342342342321 Seller name: User 2 Seller account: 23132131 Transaction ammount 20000
-2022/04/17 15:22:55.591607 transactionService.go:54: Response transaccion: 
-2022/04/17 15:22:55.591607 transactionService.go:55: Transaction id 312312312312 Customer name: User 1 Customer account: 23131342342342321 Debit Ammount: 20000 Seller Name: User 2 Seller Account: 23132131 Credit Ammount: 20000
-2022/04/17 15:22:55.591607 transactionService.go:63: -------Fin Transaccion-------
-```
-#### Monitoreo desde CloudWatch:
-
-![cloudwatch](https://github.com/fabiandroid10/sre/blob/master/CloudWatch.png)
-----
-![cloudwatch](https://github.com/fabiandroid10/sre/blob/master/CloudWatch2.png)
->>>>>>> parent of 84ada0b (fix 2)
 
 
